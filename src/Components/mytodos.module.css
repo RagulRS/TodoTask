@@ -1,0 +1,91 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:beige ;
+    border-radius: 15px;
+  }
+  .container h1{
+    display: flex;
+    justify-content: center;
+  }
+  .todo-card {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(215, 255, 174);
+    margin-bottom: 10px;
+  }
+  
+  .todo-card h3 {
+    margin-top: 0;
+  }
+  
+  .todo-card p {
+    margin: 5px 0;
+  }
+  
+  .todo-card button {
+    margin-right: 5px;
+  }
+ 
+  .form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+.head{
+    display: grid;
+    grid-template-columns: auto auto ; 
+    justify-items: center;
+   margin: 30px;
+   gap: 20rem;
+}
+
+select{
+ background-color: rgb(255, 148, 148);
+    
+}
+  .content-card{
+    top:10;
+    left: 10
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+   text-align: right;
+    
+  }
+  .btn{
+    display: grid;
+    justify-content: end;
+    grid-template-columns: auto auto;
+
+   
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
